@@ -1,0 +1,28 @@
+{
+  "name": "dps-notices-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cronjob.js",
+  "scripts": {
+    "start": "node cronjob.js",
+    "dev": "nodemon cronjob.js"
+  },
+  "keywords": [],
+  "author": "Kavin Desi Valli <mail@kavin.me> (https://kavin.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "node-cron": "^3.0.0",
+    "rss-parser": "^3.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.15"
+  }
+}
